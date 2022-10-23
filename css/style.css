@@ -1,0 +1,149 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+.full_page{
+    background-image: linear-gradient(rgba(29, 4, 78, 0.4), rgba(0,0,0,0.4)), url(../images/boat_mountains_lake_water_4k_hd.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.full_page::after{ 
+    
+}
+.navbar{
+    align-items: center;
+    padding: 10px 0;
+    background: linear-gradient(45deg, #06486f9e, #06486f1a);
+}
+.navbar nav{
+    width: 50%;
+    margin: auto;
+}
+.navbar nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar nav ul li{
+
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.form_box {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+    background: linear-gradient(45deg, #0c1f37, #00000024);
+    width: 400px;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #041432;
+}
+
+.form_box h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: 
+        center;
+    margin-bottom: 20px;
+}
+form{
+    
+}
+.control {
+
+}
+.control Label{
+
+}
+.control input {
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    color: #222;
+    border: none;
+    outline: none;
+    margin: 12px 0;
+}
+.control input[type="submit"]{
+    background: crimson;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+
+.link{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+.link a:hover{
+    opacity: 1;
+}
+footer { 
+    width: 100%; 
+    align-items: center; 
+    background-color: rgb(7 53 85); 
+    padding: 15px 0px; 
+}
+.footer_wrapper { 
+    display: flex; 
+    margin: auto; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 80%; 
+}
+.copyright { 
+
+}
+.copyright ul { 
+    list-style: none; 
+    display: flex; 
+    align-items: center; 
+}
+.copyright ul li { 
+    margin-right: 20px; 
+}
+.copyright ul li img { 
+
+}
+.copyright ul li a { 
+    color: rgb(121, 124, 130); 
+    text-decoration: none; 
+    text-transform: capitalize; 
+}
+.social_icon { 
+    
+}
+.social_icon ul { 
+    list-style: none; 
+    display: flex; align-items: center; 
+}
+.social_icon ul li { 
+    margin-right: 40px; 
+}
+.social_icon ul li a { 
+    color: white; 
+}
