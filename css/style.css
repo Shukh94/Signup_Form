@@ -89,7 +89,8 @@ form{
 .control input[type="submit"]:hover{
     opacity: 1;
 }
-
+.control input::placeholder{
+    padding-left: 5px;
 .link{
     text-align: center;
 }
